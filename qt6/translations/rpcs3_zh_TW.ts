@@ -399,8 +399,8 @@ LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX fil
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If choosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</oldsource>
         <translation>這些庫預設為 LLE (下層清單)，選擇將切換為 HLE。
-LLE - &quot;低階仿真&quot;，所選 SPRX 檔案中的功能碼將用於輸出韌體功能。
-HLE - &quot;高階仿真&quot;，將使用替代仿真器代碼代替輸出韌體功能。
+LLE - &quot;低階模擬&quot;，所選 SPRX 檔案中的功能碼將用於輸出韌體功能。
+HLE - &quot;高階模擬&quot;，將使用替代模擬器代碼代替輸出韌體功能。
 若選擇錯誤，遊戲無法工作! 如不確定，請留空兩個清單。透過 HLE 所有 SPRX 可在不安裝韌體下啟動。(實驗)</translation>
     </message>
     <message>
@@ -414,8 +414,8 @@ LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX fil
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If choosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</oldsource>
         <translation>這些庫預設為 HLE (上層清單)，選擇將切換為 LLE。
-LLE - &quot;低階仿真&quot;，所選 SPRX 檔案中的功能碼將用於輸出韌體功能。
-HLE - &quot;高階仿真&quot;，將使用替代仿真器代碼代替輸出韌體功能。
+LLE - &quot;低階模擬&quot;，所選 SPRX 檔案中的功能碼將用於輸出韌體功能。
+HLE - &quot;高階模擬&quot;，將使用替代模擬器代碼代替輸出韌體功能。
 若選擇錯誤，遊戲無法工作! 如不確定，請留空兩個清單。透過 HLE 所有 SPRX 可在不安裝韌體下啟動。(實驗)</translation>
     </message>
     <message>
@@ -502,7 +502,7 @@ Can affect perfomance in unexpected ways.</oldsource>
         <location filename="rpcs3qt/tooltips.h" line="47"/>
         <source>Adjusts the frequency of vertical blanking signals that the emulator sends.
 Affects timing of events which rely on these signals.</source>
-        <translation>調整仿真器發送的垂直消隱訊號的頻率。
+        <translation>調整模擬器發送的垂直消隱訊號的頻率。
 影響依賴於這些訊號事件的時機。</translation>
     </message>
     <message>
@@ -588,7 +588,7 @@ Use with buggy audio drivers if you have no sound or completely broken sound.</s
         <location filename="rpcs3qt/tooltips.h" line="68"/>
         <source>Controls the overall volume of the emulation.
 Values above 100% might reduce the audio quality.</source>
-        <translation>控制仿真的整體音量。
+        <translation>控制模擬的整體音量。
 高於 100% 的值可能會降低音質。</translation>
     </message>
     <message>
@@ -910,7 +910,7 @@ Numerical values control whether or not to enable the accurate version based on 
     <message>
         <location filename="rpcs3qt/tooltips.h" line="121"/>
         <source>Measure certain events and print a chart after the emulator is stopped. Don&apos;t enable if not asked to.</source>
-        <translation>停止仿真器後，測量某些事件並列印圖表。 如果沒有要求，請不要啟用。</translation>
+        <translation>停止模擬器後，測量某些事件並列印圖表。 如果沒有要求，請不要啟用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="122"/>
@@ -956,8 +956,8 @@ Do note that the savestate file is not gone completely, just ignored by RPCS3. Y
         <oldsource>When this mode is on, emulation exits when saving and the savestate file is concealed after loading it, preventing reuse by RPCS3.
 This mode is like hibernation of emulation: if you don&apos;t want to be able to cheat using savestates when playing the game, consider using this mode.
 Do note that the savestate file is not gone completely just ignored by RPCS3, you can manually relaunch it if needed.</oldsource>
-        <translation>開啟此模式儲存時將結束仿真，載入後即時存檔會被隱藏，為防止 RPCS3 再用。
-此模式類似於仿真的休眠: 要是不想在玩遊戲時使用即時存檔作弊，請考慮使用此模式。
+        <translation>開啟此模式儲存時將結束模擬，載入後即時存檔會被隱藏，為防止 RPCS3 再用。
+此模式類似於模擬的休眠: 要是不想在玩遊戲時使用即時存檔金手指，請考慮使用此模式。
 請注意，即時存檔並沒有完全被 RPCS3 忽略，如果需要，您可以手動重新啟動。</translation>
     </message>
     <message>
@@ -1210,9 +1210,9 @@ Currently, the on-screen keyboard only supports the English key layout.</source>
         <source>When enabled, opening the home menu will also pause emulation.
 While most games pause themselves while the home menu is shown, some do not.
 In that case it can be helpful to pause the emulation whenever the home menu is open.</source>
-        <translation>啟用後，開啟主選單也會暫停仿真。
+        <translation>啟用後，開啟主選單也會暫停模擬。
 雖然大多數遊戲會在顯示主選單時自動暫停，但有些遊戲不會。
-在這種情況下，每當主選單開啟時暫停仿真會很有幫助。</translation>
+在這種情況下，每當主選單開啟時暫停模擬會很有幫助。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="144"/>
@@ -1329,7 +1329,7 @@ Rarely due to emulation bugs some games will only render at low resolutions like
         <translation>如果「解析度比例」設定為 100% 以外的任何值，則此設定將被忽略! 
 請保持在「1280x720」上，每個 PS3 遊戲都與這個解析度相容，
 僅當遊戲支援的情況下，才能將其設定為「1920x1080」。
-較低的解析度可能工作，但不實用，然而很少會出於仿真的錯誤，一些遊戲只能在低解析度 (480p) 下呈現。</translation>
+較低的解析度可能工作，但不實用，然而很少會出於模擬的錯誤，一些遊戲只能在低解析度 (480p) 下呈現。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="167"/>
@@ -1456,7 +1456,7 @@ When this mode is off, some games may not allow making a savestate and show an S
         <source>Automatically pause emulation when RPCS3 loses its focus or the application is inactive in order to save power and reduce CPU usage.
 Do note that emulation pausing in general is not perfect and may not be compatible with all games.
 Although it currently also pauses gameplay, it is not recommended to rely on it as this behavior may be changed in the future and it is not the purpose of this setting.</source>
-        <translation>當 RPCS3 失去焦點或應用程式不活動時自動暫停仿真，以節省電量並減少 CPU 使用率。
+        <translation>當 RPCS3 失去焦點或應用程式不活動時自動暫停模擬，以節省電量並減少 CPU 使用率。
 請注意，模擬暫停通常並不完美，並且可能不相容所有遊戲。
 雖然當前也能暫停遊戲，但不建議太過於依賴，這種行為將來可能會改變，並且這不是此設定的目的。</translation>
     </message>
@@ -2082,7 +2082,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="108"/>
         <source>RPCS3 PlayStation 3 Emulator</source>
-        <translation>RPCS3 PlayStation 3 仿真器</translation>
+        <translation>RPCS3 PlayStation 3 模擬器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="218"/>
@@ -2266,7 +2266,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
 		</source>
         <translation>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
-				RPCS3 是一款開源的 Sony PlayStation 3 仿真器與偵錯器。&lt;br&gt;
+				RPCS3 是一款開源的 Sony PlayStation 3 模擬器與偵錯器。&lt;br&gt;
 				使用 C ++ 編寫，適用於 Windows、Linux、FreeBSD 和 MacOS。 資助由 &lt;a %0 href=&quot;https://www.patreon.com/Nekotekina&quot;&gt;Patreon&lt;/a&gt;.&lt;br&gt;
 				主要的「開發團隊」和「貢獻者」仍然努力著維持項目的完善，&lt;br&gt;
 				但還有大量的項目得實現及最佳化。
@@ -2492,7 +2492,7 @@ It might be blocked by another application.</source>
     <name>cheat_manager_dialog</name>
     <message>
         <source>Cheat Manager</source>
-        <translation>作弊管理</translation>
+        <translation>金手指管理</translation>
     </message>
     <message>
         <source>Game</source>
@@ -2524,7 +2524,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Cheat Search</source>
-        <translation>作弊搜尋</translation>
+        <translation>金手指搜尋</translation>
     </message>
     <message>
         <source>New Search</source>
@@ -2552,15 +2552,15 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Import Cheats</source>
-        <translation>輸入作弊</translation>
+        <translation>匯入金手指</translation>
     </message>
     <message>
         <source>Export Cheats</source>
-        <translation>輸出作弊</translation>
+        <translation>匯出金手指</translation>
     </message>
     <message>
         <source>Reverse-Lookup Cheat</source>
-        <translation>反向尋找作弊</translation>
+        <translation>反向尋找金手指</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="981"/>
@@ -2569,7 +2569,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Couldn&apos;t convert the value you typed to the integer type of that cheat</source>
-        <translation>無法將您輸入的值轉換為作弊的整數類型</translation>
+        <translation>無法將您輸入的值轉換為金手指的整數類型</translation>
     </message>
     <message>
         <source>Error applying value</source>
@@ -2581,15 +2581,15 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Add to cheat list</source>
-        <translation>增加到作弊清單</translation>
+        <translation>增加到金手指清單</translation>
     </message>
     <message>
         <source>Cheat already exist</source>
-        <translation>作弊已經存在</translation>
+        <translation>金手指已經存在</translation>
     </message>
     <message>
         <source>Do you want to overwrite the existing cheat?</source>
-        <translation>要取代現有的作弊嗎?</translation>
+        <translation>要取代現有的金手指嗎?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="981"/>
@@ -2837,7 +2837,7 @@ Page-Down 鍵: 向下捲動，步數等於檢視的指令數。
         <location filename="rpcs3qt/debugger_frame.cpp" line="269"/>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
-        <translation>當設定: 斷點命中將暫停仿真，而不是當前執行緒。
+        <translation>當設定: 斷點命中將暫停模擬，而不是當前執行緒。
 無論在更改此設定之前還是之後，都將應用於所有執行緒中的所有斷點。</translation>
     </message>
     <message>
@@ -4437,7 +4437,7 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="128"/>
         <source>Games that don&apos;t initialize properly, not loading at all and/or crashing the emulator</source>
-        <translation>不正確初始化遊戲，根本不讀取或使仿真器崩潰</translation>
+        <translation>不正確初始化遊戲，根本不讀取或使模擬器崩潰</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="129"/>
@@ -5462,7 +5462,7 @@ Please increase the limit before running RPCS3.</source>
         <location filename="rpcs3qt/gui_application.cpp" line="605"/>
         <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
-        <translation>停止仿真器用掉過多時間。
+        <translation>停止模擬器用掉過多時間。
 有些執行緒可能已停頓。 正在中止。</translation>
     </message>
     <message>
@@ -5484,7 +5484,7 @@ Some thread has probably deadlocked. Aborting.</source>
         <location filename="rpcs3qt/gui_application.cpp" line="625"/>
         <source>Waiting for %0 second(s) already to stop emulation without success.
 Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
-        <translation>已等待 %0 秒以停止仿真，但未成功。
+        <translation>已等待 %0 秒以停止模擬，但未成功。
 繼續等待或不安全地終止 RPCS3 需要您自擔風險?</translation>
     </message>
 </context>
@@ -5541,7 +5541,7 @@ Any unsaved progress will be lost!
         <location filename="headless_application.cpp" line="146"/>
         <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
-        <translation>停止仿真器用掉過多時間。
+        <translation>停止模擬器用掉過多時間。
 有些執行緒可能已停頓。 正在中止。</translation>
     </message>
 </context>
@@ -6996,17 +6996,17 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="193"/>
         <source>Save Emulation State</source>
-        <translation>儲存仿真器狀態</translation>
+        <translation>儲存模擬器狀態</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="194"/>
         <source>Save Emulation State And Exit</source>
-        <translation>儲存仿真器狀態並結束</translation>
+        <translation>儲存模擬器狀態並結束</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="195"/>
         <source>Reload Last Emulation State</source>
-        <translation>再啟動上次仿真器狀態</translation>
+        <translation>再啟動上次模擬器狀態</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="196"/>
@@ -7498,7 +7498,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="221"/>
         <source>Emulation</source>
-        <translation>仿真</translation>
+        <translation>模擬</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="232"/>
@@ -7609,7 +7609,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="971"/>
         <source>Start emulation</source>
         <oldsource>Start Emulation</oldsource>
-        <translation>啟動仿真</translation>
+        <translation>啟動模擬</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="494"/>
@@ -7623,7 +7623,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="983"/>
         <source>Stop emulation</source>
         <oldsource>Stop Emulation</oldsource>
-        <translation>停止仿真</translation>
+        <translation>停止模擬</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="505"/>
@@ -7705,17 +7705,17 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="564"/>
         <source>Configure advanced emulator settings</source>
-        <translation>進階仿真器組態設定</translation>
+        <translation>進階模擬器組態設定</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="569"/>
         <source>Emulator</source>
-        <translation>仿真器</translation>
+        <translation>模擬器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="572"/>
         <source>Configure Emulator settings</source>
-        <translation>仿真器組態設定</translation>
+        <translation>模擬器組態設定</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="577"/>
@@ -8032,7 +8032,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="995"/>
         <source>Configure the emulator</source>
-        <translation>設定仿真器</translation>
+        <translation>設定模擬器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1016"/>
@@ -8160,7 +8160,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1154"/>
         <source>Cheats</source>
-        <translation>作弊</translation>
+        <translation>金手指</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1162"/>
@@ -8384,7 +8384,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="442"/>
         <source>The emulator could not create files required for booting.</source>
-        <translation>仿真器無法建立啟動所需的檔案。</translation>
+        <translation>模擬器無法建立啟動所需的檔案。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="445"/>
@@ -8410,7 +8410,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.cpp" line="463"/>
         <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <oldsource>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</oldsource>
-        <translation>&lt;br /&gt;&lt;br /&gt;關於設定仿真器與傾印 PS3 遊戲的資訊，請閱讀 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入門指南&lt;/a&gt;。</translation>
+        <translation>&lt;br /&gt;&lt;br /&gt;關於設定模擬器與傾印 PS3 遊戲的資訊，請閱讀 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入門指南&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="466"/>
@@ -8738,7 +8738,7 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2573"/>
         <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
-        <translation>確定仿真正在運作並且所選路徑屬於有效的光碟遊戲。</translation>
+        <translation>確定模擬正在運作並且所選路徑屬於有效的光碟遊戲。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2760"/>
@@ -10734,7 +10734,7 @@ No changes were made.</source>
 Selecting ignore starts the emulator without Vulkan support.</source>
         <translation>查詢 Vulkan 相容的裝置花費時間過久。 這通常是由圖形驅動程式故障引起的，重新安裝即可解決問題。
 
-選擇忽略將在沒有 Vulkan 支持的情況下啟動仿真器。</translation>
+選擇忽略將在沒有 Vulkan 支持的情況下啟動模擬器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/render_creator.cpp" line="111"/>
@@ -11552,7 +11552,7 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="1641"/>
         <source>Buzz! Emulated Controller</source>
         <oldsource>Buzz! emulated controller</oldsource>
-        <translation>Buzz! 仿真控制器</translation>
+        <translation>Buzz! 模擬控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1617"/>
@@ -11875,7 +11875,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2420"/>
         <source>Suspend-Emulation Savestates Mode</source>
-        <translation>中止仿真存檔模式</translation>
+        <translation>中止模擬存檔模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2501"/>
@@ -11895,12 +11895,12 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2882"/>
         <source>Emulator</source>
-        <translation>仿真器</translation>
+        <translation>模擬器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2892"/>
         <source>Emulator Settings</source>
-        <translation>仿真器設定</translation>
+        <translation>模擬器設定</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2898"/>
@@ -11971,17 +11971,17 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2905"/>
         <source>Pause emulation on RPCS3 focus loss</source>
-        <translation>RPCS3 失焦時暫停仿真</translation>
+        <translation>RPCS3 失焦時暫停模擬</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2912"/>
         <source>Pause emulation after loading savestates</source>
-        <translation>載入存檔後暫停仿真</translation>
+        <translation>載入存檔後暫停模擬</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2919"/>
         <source>Pause emulation during home menu</source>
-        <translation>在主選單期間暫停仿真</translation>
+        <translation>在主選單期間暫停模擬</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2940"/>
@@ -12313,7 +12313,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4120"/>
         <source>Force CPU Blit Emulation</source>
-        <translation>強制 CPU 位塊傳輸仿真</translation>
+        <translation>強制 CPU 位塊傳輸模擬</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4127"/>
@@ -13703,7 +13703,7 @@ Do you want to update to the latest official RPCS3 version?</source>
     <message>
         <location filename="rpcs3qt/update_manager.cpp" line="340"/>
         <source>Please stop the emulation before trying to update.</source>
-        <translation>在嘗試更新之前，請停止仿真。</translation>
+        <translation>在嘗試更新之前，請停止模擬。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/update_manager.cpp" line="650"/>
@@ -13848,16 +13848,16 @@ New Username: </source>
     <message>
         <location filename="rpcs3qt/user_manager_dialog.cpp" line="356"/>
         <source>Stop emulator?</source>
-        <translation>停止仿真?</translation>
+        <translation>停止模擬?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/user_manager_dialog.cpp" line="357"/>
         <source>In order to change the user you have to stop the emulator first.
 
 Stop the emulator now?</source>
-        <translation>要變更使用者，您必須先停止仿真器。
+        <translation>要變更使用者，您必須先停止模擬器。
 
-現在停止仿真器?</translation>
+現在停止模擬器?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/user_manager_dialog.cpp" line="407"/>
@@ -13993,7 +13993,7 @@ Stop the emulator now?</source>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="98"/>
         <source>RPCS3 PlayStation 3 Emulator</source>
-        <translation>RPCS3 PlayStation 3 仿真器</translation>
+        <translation>RPCS3 PlayStation 3 模擬器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="180"/>
@@ -14042,7 +14042,7 @@ Stop the emulator now?</source>
 		</source>
         <translation>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
-				RPCS3 是一款開源的 Sony PlayStation 3 仿真器與偵錯器。&lt;br&gt;
+				RPCS3 是一款開源的 Sony PlayStation 3 模擬器與偵錯器。&lt;br&gt;
 				使用 C ++ 編寫，適用於 Windows、Linux、FreeBSD 和 MacOS。 資助由 &lt;a %0 href=&quot;https://www.patreon.com/Nekotekina&quot;&gt;Patreon&lt;/a&gt;.&lt;br&gt;
 				主要的「開發團隊」和「貢獻者」仍然努力著維持項目的完善，&lt;br&gt;
 				但還有大量的項目得實現及最佳化。
